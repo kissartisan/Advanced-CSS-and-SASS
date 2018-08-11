@@ -11,3 +11,10 @@
     -webkit-background-clip: text; // Clip the background to exactly the place where the text is
     color: transparent;
 }
+
+@mixin absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
